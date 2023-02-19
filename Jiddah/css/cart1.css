@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap');
+
+:root {
+  --onyx:  hsl(0, 0%, 25%);
+  --azure: hsl(219, 77%, 60%);
+  --white: hsl(0, 0%, 100%);
+  --platinum: hsl(0, 0%, 91%);
+  --gainsboro: hsl(0, 0%, 90%);
+  --red-salsa: hsl(0, 77%, 60%);
+  --dim-gray: hsl(0, 0%, 39%);
+  --davys-gray: hsl(0, 0%, 30%);
+  --spanish-gray: hsl(0, 0%, 62%);
+  --quick-silver: hsl(0, 0%, 64%);
+
+  --fs-28: 28px;
+  --fs-24: 24px;
+  --fs-18: 18px;
+  --fs-15: 15px;
+  --fs-14: 14px;
+
+  --fw-5: 500;
+  --fw-6: 600;
+  --fw-7: 700;
+
+
+  --px: 60px;
+  --radius: 5px;
+}
+
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { font-family: 'Roboto', sans-serif;}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+ion-icon, span {
+  display: inline-block;
+}
+
+label,img {display: block;}
+
+input {
+  font: inherit;
+  width: 100%;
+  /* border: none; */
+}
+
+input:focus {outline: 2px solid var(--azure);}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-track {background: transparent;}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 80%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 80%); }

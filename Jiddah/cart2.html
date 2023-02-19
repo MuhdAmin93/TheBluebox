@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="cart1.css">
+</head>
+<body>
+  <main class="container">
+    <h1 class="heading">
+      <ion-icon name="cart-outline" ></ion-icon>Shopping Cart
+    </h1>
+    <div class="item-flex">
+      <section class="checkout">
+        <h2 class="section-heading">Payment Details</h2>
+        <div class="payment-form">
+          <div class="payment-method">
+            <button class="method selected">
+              <ion-icon name="card"></ion-icon>
+              <span>Credit Card</span>
+              <ion-icon class="checkmark fill" name="checkmark-circle"></ion-icon>
+            </button>
+            <button class="method">
+              <ion-icon name="card"></ion-icon>
+              <span>PayPal</span>
+              <ion-icon class="checkmark" name="checkmark-circle-outline"></ion-icon>
+            </button>
+          </div>
+
+          <form action="#">
+            <div class="cardholder-name">
+              <label for="" class="label-default">Cardholder name</label>
+              <input type="text" name="cardholder-name" id="cardholder-name" class="input-default">
+            </div>
+            <div class="cardholder-name">
+              <label for="" class="label-default">Cardholder name</label>
+              <input type="text" name="cardholder-name" id="cardholder-name" class="input-default">
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
